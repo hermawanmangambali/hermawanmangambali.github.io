@@ -1,0 +1,145 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.navbar {
+  background-color: #343F55;
+}
+
+#header .link-nav:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #DAA674;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.name {
+  margin-top: 20px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-weight: 900 !important;
+}
+
+#header {
+  padding: 0 !important;
+}
+
+#header .navbar-brand,
+.nav-link {
+  color: white !important;
+  font-size: 17px;
+}
+
+#profile {
+  padding-top: 5rem;
+  background-color: #343F55;
+  color: white;
+}
+
+#profile img {
+  object-fit: cover;
+  width: auto;
+  height: 220px;
+}
+
+#about,
+#experience,
+ul {
+  background-color: #DAA674;
+}
+
+#biografi,
+#skill {
+  background-color: #343F55;
+}
+
+#biografi,
+.tb-biografi {
+  color: white !important;
+}
+
+#footer {
+  background-color: #DAA674;
+}
+
+#skill {
+  color: white;
+}
+
+i {
+  margin-right: 10%;
+}
+
+.btn {
+  width: 15%;
+}
+
+.bg-button {
+  background-color: white !important;
+}
+
+.thead-bg-one {
+  background-color: #DAA674;
+}
+
+.thead-bg-two {
+  background-color: #343F55;
+}
+
+.warna-bg-one {
+  background-color: #dab28c;
+}
+
+.warna-bg-two {
+  background-color: #7e8ba5;
+}
+
+th,
+.value {
+  text-align: left;
+}
+
+.spasi {
+  padding-bottom: 40px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.col-md-2 {
+  margin-left: auto;
+}
+
+.badge {
+  float: right;
+}
+
+ul {
+  width: 69% !important;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.created {
+  background-color: #343F55;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  color: white;
+  height: 70px !important;
+  line-height: 4rem;
+}
